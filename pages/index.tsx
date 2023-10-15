@@ -25,7 +25,7 @@ export default function Home() {
           content="l1a2fyP4jz21WqSIR2HNxLAyt__hUNkV-48f_zbVHYE"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:url" content="https://resubase-me.vercel.app" />
+        <meta property="og:url" content="https://stashblobweb.vercel.app" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
@@ -42,7 +42,7 @@ export default function Home() {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content="resubase-me.vercel.app" />
-        <meta property="twitter:url" content="https://resubase-me.vercel.app" />
+        <meta property="twitter:url" content="https://stashblobweb.vercel.app" />
         <meta
           name="twitter:title"
           content="StashBlob"
@@ -680,7 +680,7 @@ export default function Home() {
                 href="https://tally.so/r/mOXADa"
                 className="flex items-center gap-1 hover:underline text-white"
               >
-                Join Forget{" "}
+                Get Notified{" "}
                 <svg
                   width="17"
                   height="17"
