@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Head from "next/head";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { Twitter, Github } from "lucide-react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -676,7 +677,7 @@ export default function Home() {
                 The change starts with you
               </h3>
               <Link
-                href="/"
+                href="https://tally.so/r/mOXADa"
                 className="flex items-center gap-1 hover:underline text-white"
               >
                 Join Forget{" "}
@@ -719,6 +720,17 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <footer className='bg-blackmid/50'>
+          <div className="md:p-10 lg:p-10 p-4 flex md:flex-row lg:flex-row flex-col-reverse md:gap-0 lg:gap-0 gap-4 items-center justify-between">
+            <div className="">
+              <span className="text-doubleAgrey">&copy; 2023 Timi Lab. All rights reserved.</span>
+            </div>
+            <div className="flex items-center gap-5">
+              <Link href='https://twitter.com/timi_networks' className="text-doubleAgrey"><Twitter /></Link>
+              <Link href='https://github.com/creative-tutorials' className="text-doubleAgrey"><Github /></Link>
+            </div>
+          </div>
+        </footer>
       </main>
     </>
   );
