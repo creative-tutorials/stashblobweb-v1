@@ -186,7 +186,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex md:flex-row lg:flex-row flex-col items-stretch gap-4 mt-20">
-            <div className="p-4 flex flex-col gap-4 relative overflow-hidden items-center w-full md:max-w-md lg:max-w-md bg-cardbg border border-greymid/40 hover:border-greymid/80 rounded-lg">
+            <div className="p-4 flex flex-col gap-4 relative overflow-hidden items-center w-full md:max-w-lg lg:max-w-lg bg-cardbg border border-greymid/40 hover:border-greymid/80 rounded-lg">
               <div className="">
                 <svg
                   width="60"
