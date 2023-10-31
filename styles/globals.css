@@ -7,7 +7,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,8 +17,11 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+* {
+  scroll-behavior: smooth;
 
+}
 body {
-  background: #000000;
+  background: #f6f8ff;
   /* color: #141518; */
 }
