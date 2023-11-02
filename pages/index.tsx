@@ -117,9 +117,11 @@ export default function Home() {
             </nav>
           </div>
           <div className="hidden md:block lg:block">
-            <Button className="bg-btnbg text-white hover:bg-blueroyal text-lg font-normal p-6">
-              Try StashBlob for Free
-            </Button>
+            <Link href="https://tally.so/r/mOXADa" target="_blank">
+              <Button className="bg-btnbg text-white hover:bg-blueroyal text-lg font-normal p-6">
+                Join Beta
+              </Button>
+            </Link>
           </div>
           <div className="block md:hidden lg:hidden">
             <Sheet>
@@ -131,9 +133,15 @@ export default function Home() {
                   <SheetTitle>StashBlob</SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col gap-8 mt-10">
-                  <Link href='/' className="text-xl font-medium">Overview</Link>
-                  <Link href='#features' className="text-xl font-medium">Features</Link>
-                  <Link href='#pricing' className="text-xl font-medium">Pricing</Link>
+                  <Link href="/" className="text-xl font-medium">
+                    Overview
+                  </Link>
+                  <Link href="#features" className="text-xl font-medium">
+                    Features
+                  </Link>
+                  <Link href="#pricing" className="text-xl font-medium">
+                    Pricing
+                  </Link>
                 </nav>
               </SheetContent>
             </Sheet>
@@ -154,9 +162,11 @@ export default function Home() {
               </p>
             </hgroup>
             <div className="">
-              <Button className="bg-btnbg text-white text-lg font-normal p-6 hover:bg-blueroyal">
-                Try StashBlob for Free
-              </Button>
+              <Link href="https://tally.so/r/mOXADa" target="_blank">
+                <Button className="bg-btnbg text-white text-lg font-normal p-6 hover:bg-blueroyal">
+                  Join Public Beta
+                </Button>
+              </Link>
             </div>
             <div className="">
               <video
@@ -192,7 +202,7 @@ export default function Home() {
             </div>
           </section>
           <section id="features">
-            <div className="flex md:flex-row lg:flex-row flex-col items-center justify-between md:gap-10 lg:gap-10 gap-8">
+            <div className="flex md:flex-row-reverse lg:flex-row-reverse flex-col items-center justify-between md:gap-10 lg:gap-10 gap-8">
               <div className="">
                 <Image
                   src="/assets/app upload.png"
@@ -235,7 +245,7 @@ export default function Home() {
             </div>
           </section>
           <section id="features">
-            <div className="flex md:flex-row lg:flex-row flex-col items-center justify-between md:gap-10 lg:gap-10 gap-8">
+            <div className="flex md:flex-row-reverse lg:flex-row-reverse flex-col items-center justify-between md:gap-10 lg:gap-10 gap-8">
               <div className="">
                 <Image
                   src="/assets/app share.png"
@@ -337,9 +347,11 @@ export default function Home() {
               </h3>
             </hgroup>
             <div>
-              <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white text-lg font-normal">
-                Get Started Now
-              </Button>
+              <Link href="https://tally.so/r/mOXADa" target="_blank">
+                <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white text-lg font-normal">
+                  Get Started Now
+                </Button>
+              </Link>
             </div>
           </section>
         </div>
@@ -349,7 +361,7 @@ export default function Home() {
               <p className="text-lg font-medium text-blackmid">Follow me on:</p>
             </hgroup>
             <div>
-              <Link href="/">
+              <Link href="https://x.com/timi_networks" target="_blank">
                 <Twitter className="text-boxicard" />
               </Link>
             </div>
