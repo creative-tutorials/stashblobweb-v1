@@ -117,9 +117,9 @@ export default function Home() {
             </nav>
           </div>
           <div className="hidden md:block lg:block">
-            <Link href="https://tally.so/r/mOXADa" target="_blank">
+            <Link href="https://stashblob.vercel.app/" target="_blank">
               <Button className="bg-btnbg text-white hover:bg-blueroyal text-lg font-normal p-6">
-                Join Beta
+                Start Sharing
               </Button>
             </Link>
           </div>
@@ -162,9 +162,9 @@ export default function Home() {
               </p>
             </hgroup>
             <div className="">
-              <Link href="https://tally.so/r/mOXADa" target="_blank">
+              <Link href="https://stashblob.vercel.app/" target="_blank">
                 <Button className="bg-btnbg text-white text-lg font-normal p-6 hover:bg-blueroyal">
-                  Join Public Beta
+                  Start Sharing
                 </Button>
               </Link>
             </div>
@@ -300,9 +300,11 @@ export default function Home() {
                   </p>
                 </hgroup>
                 <div className="flex items-center justify-center m-auto">
-                  <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white">
-                    Get Started
-                  </Button>
+                  <Link href="https://timilab.lemonsqueezy.com/checkout/buy/47120f93-803e-435d-89bd-441482dca0e8">
+                    <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white">
+                      Get Started
+                    </Button>
+                  </Link>
                 </div>
               </div>
               <div className="flex flex-col h-full gap-6 w-full bg-white rounded-lg shadow-lg border border-darkbluebg/50 p-8">
@@ -333,9 +335,11 @@ export default function Home() {
                   </p>
                 </hgroup>
                 <div className="flex items-center justify-center">
-                  <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white">
-                    Get Started
-                  </Button>
+                  <Link href="https://timilab.lemonsqueezy.com/checkout/buy/47120f93-803e-435d-89bd-441482dca0e8">
+                    <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white">
+                      Get Started
+                    </Button>
+                  </Link>
                 </div>
               </div>
             </section>
@@ -347,7 +351,7 @@ export default function Home() {
               </h3>
             </hgroup>
             <div>
-              <Link href="https://tally.so/r/mOXADa" target="_blank">
+              <Link href="https://stashblob.vercel.app/" target="_blank">
                 <Button className="p-6 bg-googlebtn hover:bg-blueroyal text-white text-lg font-normal">
                   Get Started Now
                 </Button>
