@@ -21,11 +21,13 @@ module.exports = {
       white: "#ffffff",
       midwhite: "#e6e6e6",
       whitehub: "#f3f3f3",
+      orange: "#fe7b11",
+      orahov: "#ee6008",
       btnbg: "#137fe8",
       blueroyal: "#3B82F6",
       googlebtn: "#207aff",
       darkbluebg: "#285386",
-      bgon: "#f6f8ff",
+      bgon: "#0d0d13",
       hgin: "#0e1435",
       nuic: "#474b64",
       btnbghover: "#5b38cb",
@@ -41,7 +43,8 @@ module.exports = {
       midgrey: "#8a8a8b"
     },
     fontFamily: {
-      Gabarito: "Gabarito, cursive",
+      Nunito: "Nunito, sans-serif",
+      Poppins: "Poppins, sans-serif",
     },
     extend: {
       colors: {
