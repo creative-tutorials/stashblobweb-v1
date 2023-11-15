@@ -94,7 +94,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
       </Head>
       <main>
-        <header className="fixed top-0 w-full md:px-24 lg:px-24 p-4 flex items-stretch justify-between z-10 bg-bgon">
+        <header className="fixed top-0 w-full md:px-24 lg:px-24 p-4 flex items-stretch justify-between z-10 bg-bgon/50 backdrop-blur-md">
           <div className="flex items-stretch gap-8">
             <Link href="/">
               <Image
@@ -449,8 +449,9 @@ export default function Home() {
                 </hgroup>
                 <div className="flex items-center justify-center m-auto w-full">
                   <Link
-                    href="https://timilab.lemonsqueezy.com/checkout/buy/47120f93-803e-435d-89bd-441482dca0e8"
+                    href="https://stashblob.vercel.app/"
                     className="w-full"
+                    target="_blank"
                   >
                     <Button className="w-full p-7 text-lg font-Nunito font-bold bg-orange hover:bg-orahov text-white scale-100 transition-all hover:scale-95">
                       Get Started
@@ -502,6 +503,7 @@ export default function Home() {
                   <Link
                     href="https://timilab.lemonsqueezy.com/checkout/buy/47120f93-803e-435d-89bd-441482dca0e8"
                     className="w-full"
+                    target="_blank"
                   >
                     <Button className="w-full p-7 text-lg font-Nunito font-bold bg-orange hover:bg-orahov text-white scale-100 transition-all hover:scale-95">
                       Get Started
@@ -552,6 +554,7 @@ export default function Home() {
                   <Link
                     href="https://timilab.lemonsqueezy.com/checkout/buy/47120f93-803e-435d-89bd-441482dca0e8"
                     className="w-full"
+                    target="_blank"
                   >
                     <Button className="w-full p-7 text-lg font-Nunito font-bold bg-orange hover:bg-orahov text-white scale-100 transition-all hover:scale-95">
                       Get Started
