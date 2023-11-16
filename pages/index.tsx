@@ -544,7 +544,7 @@ export default function Home() {
                     <Check className="text-orange" /> Send up to 20K emails
                   </p>
                   <p className="text-lg font-Nunito text-white font-medium flex items-center gap-2">
-                    <Check className="text-orange" /> Unlimited File-Sharing
+                    <Check className="text-orange" /> Faster response time
                   </p>
                   <p className="text-lg font-Nunito text-white font-medium flex items-center gap-2">
                     <Check className="text-orange" /> Developer API
